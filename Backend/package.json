@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/config/seeder.js",
+    "set-web-password": "node src/config/setWebStaffPassword.js"
+  },
+  "keywords": [],
+  "author": "RiphahStay — Riphah International University",
+  "contributors": [
+    "Edmund (Staff, Author)",
+    "Otter (Admin)",
+    "Walden (Author)"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "expo": "^55.0.14",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2",
+    "morgan": "^1.10.1",
+    "nodemailer": "^8.0.5",
+    "pdfkit": "^0.18.0",
+    "resend": "^6.12.0",
+    "zod": "^4.1.12"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
